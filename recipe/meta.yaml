@@ -10,7 +10,7 @@ source:
   url: https://github.com/fenics/ffcx/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 3be6eef064d6ef907245db5b6cc15d4e603762e68b76e53e099935ca91ef1ee4
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 outputs:
@@ -50,6 +50,7 @@ outputs:
         - wheel
       run:
         - python >=3.7
+        - setuptools
         - numpy
         - cffi
         - fenics-basix >=0.4.1,<0.5.0a0
