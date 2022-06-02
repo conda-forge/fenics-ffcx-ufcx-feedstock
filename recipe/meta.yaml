@@ -87,5 +87,6 @@ about:
   dev_url: https://github.com/fenics/ffcx
 
 extra:
+  feedstock-name: fenics-ffcx
   recipe-maintainers:
     - minrk
